@@ -1,10 +1,13 @@
-import Header from "./components/Header";
+import Header from "./components/Header"
+import Entry from "./components/Entry"
 
 export default function App() {
-    return(
+    return (
         <>
-            <h1>App component</h1>
             <Header />
+            <main className="container">
+                <Entry />
+            </main>
         </>
     )
 }
